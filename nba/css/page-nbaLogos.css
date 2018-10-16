@@ -1,0 +1,684 @@
+.teamLogo {
+  background-image: url("../images/NBA-Logo_sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 3168px 96px;
+  height: 96px;
+  width: 96px;
+}
+
+.teamLogo.nba {
+  background-position: 0px 0px;
+}
+
+.teamLogo.nba.sm {
+  background-position: 0px 0px;
+}
+
+.teamLogo.nba.lg {
+  background-position: 0px 0px;
+}
+
+.teamLogo.eastern {
+  background-position: -96px 0px;
+}
+
+.teamLogo.eastern.sm {
+  background-position: -48px 0px;
+}
+
+.teamLogo.eastern.lg {
+  background-position: -144px 0px;
+}
+
+.teamLogo.western {
+  background-position: -192px 0px;
+}
+
+.teamLogo.western.sm {
+  background-position: -96px 0px;
+}
+
+.teamLogo.western.lg {
+  background-position: -288px 0px;
+}
+
+.teamLogo.sm {
+  background-size: 1584px 48px;
+  height: 48px;
+  width: 48px;
+}
+
+.teamLogo.lg {
+  background-size: 4752px 144px;
+  height: 144px;
+  width: 144px;
+}
+
+.teamColors {
+  height: 6px;
+  background-color: #1d428a;
+}
+
+.teamColors span {
+  background: #c8102e;
+  width: 35%;
+  height: 6px;
+  display: block;
+}
+
+.teamColors.western {
+  background-color: #c8102e;
+}
+
+.teamColors.western span {
+  background-color: #f14d68;
+}
+
+.teamColors.eastern {
+  background-color: #1a428a;
+}
+
+.teamColors.eastern span {
+  background-color: #326dd8;
+}
+
+.celtics.teamColors {
+  background-color: #008348;
+}
+
+.celtics.teamColors span {
+  background-color: #bb9753;
+}
+
+.celtics.teamLogo {
+  background-position: -288px 0px;
+}
+
+.celtics.teamLogo.sm {
+  background-position: -144px 0px;
+}
+
+.celtics.teamLogo.lg {
+  background-position: -432px 0px;
+}
+
+.wizards.teamColors {
+  background-color: #e31837;
+}
+
+.wizards.teamColors span {
+  background-color: #002b5c;
+}
+
+.wizards.teamLogo {
+  background-position: -384px 0px;
+}
+
+.wizards.teamLogo.sm {
+  background-position: -192px 0px;
+}
+
+.wizards.teamLogo.lg {
+  background-position: -576px 0px;
+}
+
+.magic.teamColors {
+  background-color: #0077c0;
+}
+
+.magic.teamColors span {
+  background-color: #000;
+}
+
+.magic.teamLogo {
+  background-position: -480px 0px;
+}
+
+.magic.teamLogo.sm {
+  background-position: -240px 0px;
+}
+
+.magic.teamLogo.lg {
+  background-position: -720px 0px;
+}
+
+.pistons.teamColors {
+  background-color: #1d428a;
+}
+
+.pistons.teamColors span {
+  background-color: #c8102e;
+}
+
+.pistons.teamLogo {
+  background-position: -576px 0px;
+}
+
+.pistons.teamLogo.sm {
+  background-position: -288px 0px;
+}
+
+.pistons.teamLogo.lg {
+  background-position: -864px 0px;
+}
+
+.pacers.teamColors {
+  background-color: #002d62;
+}
+
+.pacers.teamColors span {
+  background-color: #fdbb30;
+}
+
+.pacers.teamLogo {
+  background-position: -672px 0px;
+}
+
+.pacers.teamLogo.sm {
+  background-position: -336px 0px;
+}
+
+.pacers.teamLogo.lg {
+  background-position: -1008px 0px;
+}
+
+.bucks.teamColors {
+  background-color: #00471b;
+}
+
+.bucks.teamColors span {
+  background-color: #eee1c6;
+}
+
+.bucks.teamLogo {
+  background-position: -768px 0px;
+}
+
+.bucks.teamLogo.sm {
+  background-position: -384px 0px;
+}
+
+.bucks.teamLogo.lg {
+  background-position: -1152px 0px;
+}
+
+.nets.teamColors {
+  background-color: #000;
+}
+
+.nets.teamColors span {
+  background-color: #444444;
+}
+
+.nets.teamLogo {
+  background-position: -864px 0px;
+}
+
+.nets.teamLogo.sm {
+  background-position: -432px 0px;
+}
+
+.nets.teamLogo.lg {
+  background-position: -1296px 0px;
+}
+
+.knicks.teamColors {
+  background-color: #006bb6;
+}
+
+.knicks.teamColors span {
+  background-color: #f58426;
+}
+
+.knicks.teamLogo {
+  background-position: -960px 0px;
+}
+
+.knicks.teamLogo.sm {
+  background-position: -480px 0px;
+}
+
+.knicks.teamLogo.lg {
+  background-position: -1440px 0px;
+}
+
+._76ers.teamColors {
+  background-color: #006bb6;
+}
+
+._76ers.teamColors span {
+  background-color: #ed174c;
+}
+
+._76ers.teamLogo {
+  background-position: -1056px 0px;
+}
+
+._76ers.teamLogo.sm {
+  background-position: -528px 0px;
+}
+
+._76ers.teamLogo.lg {
+  background-position: -1584px 0px;
+}
+
+.raptors.teamColors {
+  background-color: #ce1141;
+}
+
+.raptors.teamColors span {
+  background-color: #000;
+}
+
+.raptors.teamLogo {
+  background-position: -1152px 0px;
+}
+
+.raptors.teamLogo.sm {
+  background-position: -576px 0px;
+}
+
+.raptors.teamLogo.lg {
+  background-position: -1728px 0px;
+}
+
+.bulls.teamColors {
+  background-color: #ce1141;
+}
+
+.bulls.teamColors span {
+  background-color: #000;
+}
+
+.bulls.teamLogo {
+  background-position: -1248px 0px;
+}
+
+.bulls.teamLogo.sm {
+  background-position: -624px 0px;
+}
+
+.bulls.teamLogo.lg {
+  background-position: -1872px 0px;
+}
+
+.hawks.teamColors {
+  background-color: #e03a3e;
+}
+
+.hawks.teamColors span {
+  background-color: #000;
+}
+
+.hawks.teamLogo {
+  background-position: -1344px 0px;
+}
+
+.hawks.teamLogo.sm {
+  background-position: -672px 0px;
+}
+
+.hawks.teamLogo.lg {
+  background-position: -2016px 0px;
+}
+
+.hornets.teamColors {
+  background-color: #00788c;
+}
+
+.hornets.teamColors span {
+  background-color: #1d1160;
+}
+
+.hornets.teamLogo {
+  background-position: -1440px 0px;
+}
+
+.hornets.teamLogo.sm {
+  background-position: -720px 0px;
+}
+
+.hornets.teamLogo.lg {
+  background-position: -2160px 0px;
+}
+
+.heat.teamColors {
+  background-color: #98002e;
+}
+
+.heat.teamColors span {
+  background-color: #f9a01b;
+}
+
+.heat.teamLogo {
+  background-position: -1536px 0px;
+}
+
+.heat.teamLogo.sm {
+  background-position: -768px 0px;
+}
+
+.heat.teamLogo.lg {
+  background-position: -2304px 0px;
+}
+
+.cavaliers.teamColors {
+  background-color: #6f263d;
+}
+
+.cavaliers.teamColors span {
+  background-color: #ffb81c;
+}
+
+.cavaliers.teamLogo {
+  background-position: -1632px 0px;
+}
+
+.cavaliers.teamLogo.sm {
+  background-position: -816px 0px;
+}
+
+.cavaliers.teamLogo.lg {
+  background-position: -2448px 0px;
+}
+
+.jazz.teamColors {
+  background-color: #002b5c;
+}
+
+.jazz.teamColors span {
+  background-color: #f9a01b;
+}
+
+.jazz.teamLogo {
+  background-position: -1728px 0px;
+}
+
+.jazz.teamLogo.sm {
+  background-position: -864px 0px;
+}
+
+.jazz.teamLogo.lg {
+  background-position: -2592px 0px;
+}
+
+.suns.teamColors {
+  background-color: #1d1160;
+}
+
+.suns.teamColors span {
+  background-color: #e56020;
+}
+
+.suns.teamLogo {
+  background-position: -1824px 0px;
+}
+
+.suns.teamLogo.sm {
+  background-position: -912px 0px;
+}
+
+.suns.teamLogo.lg {
+  background-position: -2736px 0px;
+}
+
+.kings.teamColors {
+  background-color: #5a2b81;
+}
+
+.kings.teamColors span {
+  background-color: #63727a;
+}
+
+.kings.teamLogo {
+  background-position: -1920px 0px;
+}
+
+.kings.teamLogo.sm {
+  background-position: -960px 0px;
+}
+
+.kings.teamLogo.lg {
+  background-position: -2880px 0px;
+}
+
+.mavericks.teamColors {
+  background-color: #0053bc;
+}
+
+.mavericks.teamColors span {
+  background-color: #bbc4ca;
+}
+
+.mavericks.teamLogo {
+  background-position: -2016px 0px;
+}
+
+.mavericks.teamLogo.sm {
+  background-position: -1008px 0px;
+}
+
+.mavericks.teamLogo.lg {
+  background-position: -3024px 0px;
+}
+
+.rockets.teamColors {
+  background-color: #ce1141;
+}
+
+.rockets.teamColors span {
+  background-color: #000;
+}
+
+.rockets.teamLogo {
+  background-position: -2112px 0px;
+}
+
+.rockets.teamLogo.sm {
+  background-position: -1056px 0px;
+}
+
+.rockets.teamLogo.lg {
+  background-position: -3168px 0px;
+}
+
+.nuggets.teamColors {
+  background-color: #0e2240;
+}
+
+.nuggets.teamColors span {
+  background-color: #fec524;
+}
+
+.nuggets.teamLogo {
+  background-position: -2208px 0px;
+}
+
+.nuggets.teamLogo.sm {
+  background-position: -1104px 0px;
+}
+
+.nuggets.teamLogo.lg {
+  background-position: -3312px 0px;
+}
+
+.timberwolves.teamColors {
+  background-color: #0c2340;
+}
+
+.timberwolves.teamColors span {
+  background-color: #78be20;
+}
+
+.timberwolves.teamLogo {
+  background-position: -2304px 0px;
+}
+
+.timberwolves.teamLogo.sm {
+  background-position: -1152px 0px;
+}
+
+.timberwolves.teamLogo.lg {
+  background-position: -3456px 0px;
+}
+
+.thunder.teamColors {
+  background-color: #007ac1;
+}
+
+.thunder.teamColors span {
+  background-color: #ef3824;
+}
+
+.thunder.teamLogo {
+  background-position: -2400px 0px;
+}
+
+.thunder.teamLogo.sm {
+  background-position: -1200px 0px;
+}
+
+.thunder.teamLogo.lg {
+  background-position: -3600px 0px;
+}
+
+.trail-blazers.teamColors {
+  background-color: #e03a3e;
+}
+
+.trail-blazers.teamColors span {
+  background-color: #000;
+}
+
+.trail-blazers.teamLogo {
+  background-position: -2496px 0px;
+}
+
+.trail-blazers.teamLogo.sm {
+  background-position: -1248px 0px;
+}
+
+.trail-blazers.teamLogo.lg {
+  background-position: -3744px 0px;
+}
+
+.warriors.teamColors {
+  background-color: #006bb6;
+}
+
+.warriors.teamColors span {
+  background-color: #fdb927;
+}
+
+.warriors.teamLogo {
+  background-position: -2592px 0px;
+}
+
+.warriors.teamLogo.sm {
+  background-position: -1296px 0px;
+}
+
+.warriors.teamLogo.lg {
+  background-position: -3888px 0px;
+}
+
+.clippers.teamColors {
+  background-color: #c8102e;
+}
+
+.clippers.teamColors span {
+  background-color: #1d428a;
+}
+
+.clippers.teamLogo {
+  background-position: -2688px 0px;
+}
+
+.clippers.teamLogo.sm {
+  background-position: -1344px 0px;
+}
+
+.clippers.teamLogo.lg {
+  background-position: -4032px 0px;
+}
+
+.lakers.teamColors {
+  background-color: #552583;
+}
+
+.lakers.teamColors span {
+  background-color: #fdb927;
+}
+
+.lakers.teamLogo {
+  background-position: -2784px 0px;
+}
+
+.lakers.teamLogo.sm {
+  background-position: -1392px 0px;
+}
+
+.lakers.teamLogo.lg {
+  background-position: -4176px 0px;
+}
+
+.grizzlies.teamColors {
+  background-color: #5d76a9;
+}
+
+.grizzlies.teamColors span {
+  background-color: #12173f;
+}
+
+.grizzlies.teamLogo {
+  background-position: -2880px 0px;
+}
+
+.grizzlies.teamLogo.sm {
+  background-position: -1440px 0px;
+}
+
+.grizzlies.teamLogo.lg {
+  background-position: -4320px 0px;
+}
+
+.pelicans.teamColors {
+  background-color: #002b5c;
+}
+
+.pelicans.teamColors span {
+  background-color: #b4975a;
+}
+
+.pelicans.teamLogo {
+  background-position: -2976px 0px;
+}
+
+.pelicans.teamLogo.sm {
+  background-position: -1488px 0px;
+}
+
+.pelicans.teamLogo.lg {
+  background-position: -4464px 0px;
+}
+
+.spurs.teamColors {
+  background-color: #c4ced4;
+}
+
+.spurs.teamColors span {
+  background-color: #000;
+}
+
+.spurs.teamLogo {
+  background-position: -3072px 0px;
+}
+
+.spurs.teamLogo.sm {
+  background-position: -1536px 0px;
+}
+
+.spurs.teamLogo.lg {
+  background-position: -4608px 0px;
+}

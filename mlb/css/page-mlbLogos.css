@@ -1,0 +1,684 @@
+.teamLogo {
+  background-image: url("../images/MLB-Logo_sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: 3168px 96px;
+  height: 96px;
+  width: 96px;
+}
+
+.teamLogo.mlb {
+  background-position: 0px 0px;
+}
+
+.teamLogo.mlb.sm {
+  background-position: 0px 0px;
+}
+
+.teamLogo.mlb.lg {
+  background-position: 0px 0px;
+}
+
+.teamLogo.american-league {
+  background-position: -96px 0px;
+}
+
+.teamLogo.american-league.sm {
+  background-position: -48px 0px;
+}
+
+.teamLogo.american-league.lg {
+  background-position: -144px 0px;
+}
+
+.teamLogo.national-league {
+  background-position: -192px 0px;
+}
+
+.teamLogo.national-league.sm {
+  background-position: -96px 0px;
+}
+
+.teamLogo.national-league.lg {
+  background-position: -288px 0px;
+}
+
+.teamLogo.sm {
+  background-size: 1584px 48px;
+  height: 48px;
+  width: 48px;
+}
+
+.teamLogo.lg {
+  background-size: 4752px 144px;
+  height: 144px;
+  width: 144px;
+}
+
+.teamColors {
+  height: 6px;
+  background-color: #000088;
+}
+
+.teamColors span {
+  background: #cc0000;
+  width: 35%;
+  height: 6px;
+  display: block;
+}
+
+.teamColors.american-league {
+  background-color: #154281;
+}
+
+.teamColors.american-league span {
+  background-color: #ed1348;
+}
+
+.teamColors.national-league {
+  background-color: #ed1348;
+}
+
+.teamColors.national-league span {
+  background-color: #154281;
+}
+
+.giants.teamColors {
+  background-color: #f15b28;
+}
+
+.giants.teamColors span {
+  background-color: #000;
+}
+
+.giants.teamLogo {
+  background-position: -288px 0px;
+}
+
+.giants.teamLogo.sm {
+  background-position: -144px 0px;
+}
+
+.giants.teamLogo.lg {
+  background-position: -432px 0px;
+}
+
+.mariners.teamColors {
+  background-color: #182d55;
+}
+
+.mariners.teamColors span {
+  background-color: #025d5d;
+}
+
+.mariners.teamLogo {
+  background-position: -384px 0px;
+}
+
+.mariners.teamLogo.sm {
+  background-position: -192px 0px;
+}
+
+.mariners.teamLogo.lg {
+  background-position: -576px 0px;
+}
+
+.marlins.teamColors {
+  background-color: #f26722;
+}
+
+.marlins.teamColors span {
+  background-color: #1e76bd;
+}
+
+.marlins.teamLogo {
+  background-position: -480px 0px;
+}
+
+.marlins.teamLogo.sm {
+  background-position: -240px 0px;
+}
+
+.marlins.teamLogo.lg {
+  background-position: -720px 0px;
+}
+
+.indians.teamColors {
+  background-color: #e21d38;
+}
+
+.indians.teamColors span {
+  background-color: #1a2e5a;
+}
+
+.indians.teamLogo {
+  background-position: -576px 0px;
+}
+
+.indians.teamLogo.sm {
+  background-position: -288px 0px;
+}
+
+.indians.teamLogo.lg {
+  background-position: -864px 0px;
+}
+
+.dodgers.teamColors {
+  background-color: #005a9c;
+}
+
+.dodgers.teamColors span {
+  background-color: #ef3e42;
+}
+
+.dodgers.teamLogo {
+  background-position: -672px 0px;
+}
+
+.dodgers.teamLogo.sm {
+  background-position: -336px 0px;
+}
+
+.dodgers.teamLogo.lg {
+  background-position: -1008px 0px;
+}
+
+.cubs.teamColors {
+  background-color: #273b81;
+}
+
+.cubs.teamColors span {
+  background-color: #cc3433;
+}
+
+.cubs.teamLogo {
+  background-position: -768px 0px;
+}
+
+.cubs.teamLogo.sm {
+  background-position: -384px 0px;
+}
+
+.cubs.teamLogo.lg {
+  background-position: -1152px 0px;
+}
+
+.astros.teamColors {
+  background-color: #1e3160;
+}
+
+.astros.teamColors span {
+  background-color: #ea6e24;
+}
+
+.astros.teamLogo {
+  background-position: -864px 0px;
+}
+
+.astros.teamLogo.sm {
+  background-position: -432px 0px;
+}
+
+.astros.teamLogo.lg {
+  background-position: -1296px 0px;
+}
+
+.twins.teamColors {
+  background-color: #1a2e5a;
+}
+
+.twins.teamColors span {
+  background-color: #d31347;
+}
+
+.twins.teamLogo {
+  background-position: -960px 0px;
+}
+
+.twins.teamLogo.sm {
+  background-position: -480px 0px;
+}
+
+.twins.teamLogo.lg {
+  background-position: -1440px 0px;
+}
+
+.blue-jays.teamColors {
+  background-color: #124b8d;
+}
+
+.blue-jays.teamColors span {
+  background-color: #e72c25;
+}
+
+.blue-jays.teamLogo {
+  background-position: -1056px 0px;
+}
+
+.blue-jays.teamLogo.sm {
+  background-position: -528px 0px;
+}
+
+.blue-jays.teamLogo.lg {
+  background-position: -1584px 0px;
+}
+
+.angels.teamColors {
+  background-color: #ba2026;
+}
+
+.angels.teamColors span {
+  background-color: #1a3561;
+}
+
+.angels.teamLogo {
+  background-position: -1152px 0px;
+}
+
+.angels.teamLogo.sm {
+  background-position: -576px 0px;
+}
+
+.angels.teamLogo.lg {
+  background-position: -1728px 0px;
+}
+
+.braves.teamColors {
+  background-color: #16284f;
+}
+
+.braves.teamColors span {
+  background-color: #ce1f43;
+}
+
+.braves.teamLogo {
+  background-position: -1248px 0px;
+}
+
+.braves.teamLogo.sm {
+  background-position: -624px 0px;
+}
+
+.braves.teamLogo.lg {
+  background-position: -1872px 0px;
+}
+
+.cardinals.teamColors {
+  background-color: #c4203b;
+}
+
+.cardinals.teamColors span {
+  background-color: #22205f;
+}
+
+.cardinals.teamLogo {
+  background-position: -1344px 0px;
+}
+
+.cardinals.teamLogo.sm {
+  background-position: -672px 0px;
+}
+
+.cardinals.teamLogo.lg {
+  background-position: -2016px 0px;
+}
+
+.athletics.teamColors {
+  background-color: #013831;
+}
+
+.athletics.teamColors span {
+  background-color: #eeb21e;
+}
+
+.athletics.teamLogo {
+  background-position: -1440px 0px;
+}
+
+.athletics.teamLogo.sm {
+  background-position: -720px 0px;
+}
+
+.athletics.teamLogo.lg {
+  background-position: -2160px 0px;
+}
+
+.rays.teamColors {
+  background-color: #1b2f5b;
+}
+
+.rays.teamColors span {
+  background-color: #90bce4;
+}
+
+.rays.teamLogo {
+  background-position: -1536px 0px;
+}
+
+.rays.teamLogo.sm {
+  background-position: -768px 0px;
+}
+
+.rays.teamLogo.lg {
+  background-position: -2304px 0px;
+}
+
+.yankees.teamColors {
+  background-color: #122448;
+}
+
+.yankees.teamColors span {
+  background-color: #c4ced3;
+}
+
+.yankees.teamLogo {
+  background-position: -1632px 0px;
+}
+
+.yankees.teamLogo.sm {
+  background-position: -816px 0px;
+}
+
+.yankees.teamLogo.lg {
+  background-position: -2448px 0px;
+}
+
+.rockies.teamColors {
+  background-color: #37246b;
+}
+
+.rockies.teamColors span {
+  background-color: #000;
+}
+
+.rockies.teamLogo {
+  background-position: -1728px 0px;
+}
+
+.rockies.teamLogo.sm {
+  background-position: -864px 0px;
+}
+
+.rockies.teamLogo.lg {
+  background-position: -2592px 0px;
+}
+
+.diamondbacks.teamColors {
+  background-color: #a71e31;
+}
+
+.diamondbacks.teamColors span {
+  background-color: #000;
+}
+
+.diamondbacks.teamLogo {
+  background-position: -1824px 0px;
+}
+
+.diamondbacks.teamLogo.sm {
+  background-position: -912px 0px;
+}
+
+.diamondbacks.teamLogo.lg {
+  background-position: -2736px 0px;
+}
+
+.rangers.teamColors {
+  background-color: #233974;
+}
+
+.rangers.teamColors span {
+  background-color: #c02126;
+}
+
+.rangers.teamLogo {
+  background-position: -1920px 0px;
+}
+
+.rangers.teamLogo.sm {
+  background-position: -960px 0px;
+}
+
+.rangers.teamLogo.lg {
+  background-position: -2880px 0px;
+}
+
+.brewers.teamColors {
+  background-color: #1a2550;
+}
+
+.brewers.teamColors span {
+  background-color: #b5922f;
+}
+
+.brewers.teamLogo {
+  background-position: -2016px 0px;
+}
+
+.brewers.teamLogo.sm {
+  background-position: -1008px 0px;
+}
+
+.brewers.teamLogo.lg {
+  background-position: -3024px 0px;
+}
+
+.nationals.teamColors {
+  background-color: #aa1e22;
+}
+
+.nationals.teamColors span {
+  background-color: #212759;
+}
+
+.nationals.teamLogo {
+  background-position: -2112px 0px;
+}
+
+.nationals.teamLogo.sm {
+  background-position: -1056px 0px;
+}
+
+.nationals.teamLogo.lg {
+  background-position: -3168px 0px;
+}
+
+.red-sox.teamColors {
+  background-color: #bd3139;
+}
+
+.red-sox.teamColors span {
+  background-color: #192c55;
+}
+
+.red-sox.teamLogo {
+  background-position: -2208px 0px;
+}
+
+.red-sox.teamLogo.sm {
+  background-position: -1104px 0px;
+}
+
+.red-sox.teamLogo.lg {
+  background-position: -3312px 0px;
+}
+
+.white-sox.teamColors {
+  background-color: #000;
+}
+
+.white-sox.teamColors span {
+  background-color: #c4ced3;
+}
+
+.white-sox.teamLogo {
+  background-position: -2304px 0px;
+}
+
+.white-sox.teamLogo.sm {
+  background-position: -1152px 0px;
+}
+
+.white-sox.teamLogo.lg {
+  background-position: -3456px 0px;
+}
+
+.mets.teamColors {
+  background-color: #002d72;
+}
+
+.mets.teamColors span {
+  background-color: #ff5910;
+}
+
+.mets.teamLogo {
+  background-position: -2400px 0px;
+}
+
+.mets.teamLogo.sm {
+  background-position: -1200px 0px;
+}
+
+.mets.teamLogo.lg {
+  background-position: -3600px 0px;
+}
+
+.orioles.teamColors {
+  background-color: #000;
+}
+
+.orioles.teamColors span {
+  background-color: #dd4926;
+}
+
+.orioles.teamLogo {
+  background-position: -2496px 0px;
+}
+
+.orioles.teamLogo.sm {
+  background-position: -1248px 0px;
+}
+
+.orioles.teamLogo.lg {
+  background-position: -3744px 0px;
+}
+
+.tigers.teamColors {
+  background-color: #182d55;
+}
+
+.tigers.teamColors span {
+  background-color: #f26722;
+}
+
+.tigers.teamLogo {
+  background-position: -2592px 0px;
+}
+
+.tigers.teamLogo.sm {
+  background-position: -1296px 0px;
+}
+
+.tigers.teamLogo.lg {
+  background-position: -3888px 0px;
+}
+
+.royals.teamColors {
+  background-color: #174885;
+}
+
+.royals.teamColors span {
+  background-color: #c0995a;
+}
+
+.royals.teamLogo {
+  background-position: -2688px 0px;
+}
+
+.royals.teamLogo.sm {
+  background-position: -1344px 0px;
+}
+
+.royals.teamLogo.lg {
+  background-position: -4032px 0px;
+}
+
+.reds.teamColors {
+  background-color: #c62127;
+}
+
+.reds.teamColors span {
+  background-color: #000;
+}
+
+.reds.teamLogo {
+  background-position: -2784px 0px;
+}
+
+.reds.teamLogo.sm {
+  background-position: -1392px 0px;
+}
+
+.reds.teamLogo.lg {
+  background-position: -4176px 0px;
+}
+
+.pirates.teamColors {
+  background-color: #000;
+}
+
+.pirates.teamColors span {
+  background-color: #fdb724;
+}
+
+.pirates.teamLogo {
+  background-position: -2880px 0px;
+}
+
+.pirates.teamLogo.sm {
+  background-position: -1440px 0px;
+}
+
+.pirates.teamLogo.lg {
+  background-position: -4320px 0px;
+}
+
+.padres.teamColors {
+  background-color: #1e3160;
+}
+
+.padres.teamColors span {
+  background-color: #e6e6e6;
+}
+
+.padres.teamLogo {
+  background-position: -2976px 0px;
+}
+
+.padres.teamLogo.sm {
+  background-position: -1488px 0px;
+}
+
+.padres.teamLogo.lg {
+  background-position: -4464px 0px;
+}
+
+.phillies.teamColors {
+  background-color: #f71d2a;
+}
+
+.phillies.teamColors span {
+  background-color: #284999;
+}
+
+.phillies.teamLogo {
+  background-position: -3072px 0px;
+}
+
+.phillies.teamLogo.sm {
+  background-position: -1536px 0px;
+}
+
+.phillies.teamLogo.lg {
+  background-position: -4608px 0px;
+}

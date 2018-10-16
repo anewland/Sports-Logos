@@ -1,0 +1,688 @@
+// Original height of logo at top of page.
+$x: 192px/2;
+$smLogo: 2;
+$lgLogo: 1.5;
+
+.teamLogo {
+    $t: 34; // Number of logos in sprite
+    background-image: url('../images/NHL-Logo_sprite.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: $x*$t $x*1;
+    height: $x;
+    width: $x;
+
+    &.nhl {
+        background-position: (-$x*0) (-$x*0);
+        &.sm { background-position: (-$x*0)/$smLogo (-$x*0)/$smLogo; }
+        &.lg { background-position: (-$x*0)*$lgLogo (-$x*0)*$lgLogo; }
+    }
+
+    &.eastern {
+        background-position: (-$x*1) (-$x*0);
+        &.sm { background-position: (-$x*1)/$smLogo (-$x*0)/$smLogo; }
+        &.lg { background-position: (-$x*1)*$lgLogo (-$x*0)*$lgLogo; }
+    }
+
+    &.western {
+        background-position: (-$x*2) (-$x*0);
+        &.sm { background-position: (-$x*2)/$smLogo (-$x*0)/$smLogo; }
+        &.lg { background-position: (-$x*2)*$lgLogo (-$x*0)*$lgLogo; }
+    }
+
+    // Cuts the $x variable in half for the logos within the schedule.
+    &.sm {
+        background-size: ($x*$t)/$smLogo ($x*1)/$smLogo;
+        height: $x/$smLogo;
+        width: $x/$smLogo;
+    }
+
+    &.lg {
+        background-size: ($x*$t)*$lgLogo ($x*1)*$lgLogo;
+        height: $x*$lgLogo;
+        width: $x*$lgLogo;
+    }
+}
+
+.teamColors {
+    height: 6px;
+    background-color: #000;
+
+    span {
+        background: lighten(#000000, 20%);
+        width: 35%;
+        height: 6px;
+        display: block;
+    }
+
+    &.eastern {
+        background-color: #c41230;
+        span { background-color: lighten(#c41230, 20%); }
+    }
+
+    &.western {
+        background-color: #003e7e;
+        span { background-color: lighten(#003e7e, 20%); }
+    }
+}
+
+// TEAM LOGO POSITIONING + TEAM COLORS
+.islanders {
+    &.teamColors {
+        background-color: #00539b;
+        span { background-color: #f47d30; }
+    }
+
+    &.teamLogo {
+        $pos: 3;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.jets {
+    &.teamColors {
+        background-color: #041e41;
+        span { background-color: #0060a5; }
+    }
+
+    &.teamLogo {
+        $pos: 4;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.ducks {
+    &.teamColors {
+        background-color: #111111;
+        span { background-color: #b5985a; }
+    }
+
+    &.teamLogo {
+        $pos: 5;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.rangers {
+    &.teamColors {
+        background-color: #0038a8;
+        span { background-color: #ce1126; }
+    }
+
+    &.teamLogo {
+        $pos: 6;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.canadiens {
+    &.teamColors {
+        background-color: #af1e2d;
+        span { background-color: #192168; }
+    }
+
+    &.teamLogo {
+        $pos: 7;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.kings {
+    &.teamColors {
+        background-color: #acaea9;
+        span { background-color: #111111; }
+    }
+
+    &.teamLogo {
+        $pos: 8;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.senators {
+    &.teamColors {
+        background-color: #ce1126;
+        span { background-color: #bf910c; }
+    }
+
+    &.teamLogo {
+        $pos: 9;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.lightning {
+    &.teamColors {
+        background-color: #00205b;
+        span { background-color: #d8d8d8; }
+    }
+
+    &.teamLogo {
+        $pos: 10;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.penguins {
+    &.teamColors {
+        background-color: #000;
+        span { background-color: #fcb514; }
+    }
+
+    &.teamLogo {
+        $pos: 11;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.canucks {
+    &.teamColors {
+        background-color: #001f5b;
+        span { background-color: #008852; }
+    }
+
+    &.teamLogo {
+        $pos: 12;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.panthers {
+    &.teamColors {
+        background-color: #c8102e;
+        span { background-color: #041e42; }
+    }
+
+    &.teamLogo {
+        $pos: 13;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.stars {
+    &.teamColors {
+        background-color: #006847;
+        span { background-color: #111111; }
+    }
+
+    &.teamLogo {
+        $pos: 14;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.wild {
+    &.teamColors {
+        background-color: #af1e24;
+        span { background-color: #024930; }
+    }
+
+    &.teamLogo {
+        $pos: 15;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.avalanche {
+    &.teamColors {
+        background-color: #6f263d;
+        span { background-color: #236192; }
+    }
+
+    &.teamLogo {
+        $pos: 16;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.maple-leafs {
+    &.teamColors {
+        background-color: #003e7e;
+        span { background-color: #dadada; }
+    }
+
+    &.teamLogo {
+        $pos: 17;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.flames {
+    &.teamColors {
+        background-color: #ce1126;
+        span { background-color: #f3bc52; }
+    }
+
+    &.teamLogo {
+        $pos: 18;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.flyers {
+    &.teamColors {
+        background-color: #f74902;
+        span { background-color: #000; }
+    }
+
+    &.teamLogo {
+        $pos: 19;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.capitals {
+    &.teamColors {
+        background-color: #cf0a2c;
+        span { background-color: #041e41; }
+    }
+
+    &.teamLogo {
+        $pos: 20;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.blackhawks {
+    &.teamColors {
+        background-color: #ce1126;
+        span { background-color: #000; }
+    }
+
+    &.teamLogo {
+        $pos: 21;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.predators {
+    &.teamColors {
+        background-color: #ffb81c;
+        span { background-color: #041e42; }
+    }
+
+    &.teamLogo {
+        $pos: 22;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.bruins {
+    &.teamColors {
+        background-color: #111111;
+        span { background-color: #fcb514; }
+    }
+
+    &.teamLogo {
+        $pos: 23;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.sabres {
+    &.teamColors {
+        background-color: #002654;
+        span { background-color: #fcb514; }
+    }
+
+    &.teamLogo {
+        $pos: 24;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.red-wings {
+    &.teamColors {
+        background-color: #ce1126;
+        span { background-color: #e4e4e4; }
+    }
+
+    &.teamLogo {
+        $pos: 25;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.hurricanes {
+    &.teamColors {
+        background-color: #cc0000;
+        span { background-color: #000; }
+    }
+
+    &.teamLogo {
+        $pos: 26;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.blue-jackets {
+    &.teamColors {
+        background-color: #002654;
+        span { background-color: #ce1126; }
+    }
+
+    &.teamLogo {
+        $pos: 27;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.devils {
+    &.teamColors {
+        background-color: #ce1126;
+        span { background-color: #000; }
+    }
+
+    &.teamLogo {
+        $pos: 28;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.blues {
+    &.teamColors {
+        background-color: #002f87;
+        span { background-color: #fcb514; }
+    }
+
+    &.teamLogo {
+        $pos: 29;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.coyotes {
+    &.teamColors {
+        background-color: #8c2633;
+        span { background-color: #e2d6b5; }
+    }
+
+    &.teamLogo {
+        $pos: 30;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.oilers {
+    &.teamColors {
+        background-color: #ff4c00;
+        span { background-color: #041e41; }
+    }
+
+    &.teamLogo {
+        $pos: 31;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.sharks {
+    &.teamColors {
+        background-color: #006d75;
+        span { background-color: #ea7200; }
+    }
+
+    &.teamLogo {
+        $pos: 32;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
+
+.golden-knights {
+    &.teamColors {
+        background-color: #333f42;
+        span { background-color: #b4975a; }
+    }
+
+    &.teamLogo {
+        $pos: 33;
+        background-position: (-$x*$pos) (-$x*0);
+        &.sm {
+            $x: $x/$smLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+        &.lg {
+            $x: $x*$lgLogo;
+            background-position: (-$x*$pos) (-$x*0);
+        }
+    }
+}
